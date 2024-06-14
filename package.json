@@ -1,6 +1,6 @@
 {
   "name": "console-peek",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Handy peeker from deep nested functional pipe",
   "author": "snomiao <snomiao@gmail.com>",
   "type": "module",
