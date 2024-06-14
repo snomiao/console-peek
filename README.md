@@ -1,4 +1,4 @@
-# console-peek
+# peek-log
 
 Handy peeker from deep nested functional pipe
 

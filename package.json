@@ -1,5 +1,5 @@
 {
-  "name": "console-peek",
+  "name": "peek-log",
   "version": "0.0.2",
   "description": "Handy peeker from deep nested functional pipe",
   "author": "snomiao <snomiao@gmail.com>",

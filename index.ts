@@ -1,9 +1,12 @@
-export function consolePeek<T extends Promise<any> | any>(val: T): T {
+export function peekLog<T extends Promise<any> | any>(
+  val: T,
+  log = console.log.bind(console)
+): T {
   (async function () {
     if (val instanceof Promise) {
-      console.log(await val);
+      log(await val);
     } else {
-      console.log(val);
+      log(val);
     }
   })();
   return val;
