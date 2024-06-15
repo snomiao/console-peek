@@ -1,21 +1,14 @@
 {
   "name": "peek-log",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "description": "Handy peeker from deep nested functional pipe",
   "author": "snomiao <snomiao@gmail.com>",
-  "module": "index.ts",
-  "devDependencies": {
-    "@types/bun": "^1.1.4",
-    "@types/jest": "^29.5.12",
-    "typescript": "^5.4.5"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
+  "type": "module",
   "exports": {
     "import": "./dist/index.js",
     "types": "./index.ts"
   },
-  "description": "Handy peeker from deep nested functional pipe",
+  "module": "index.ts",
   "files": [
     "*.ts",
     "dist"
@@ -26,8 +19,15 @@
     "release": "bunx standard-version && git push --follow-tags && npm publish",
     "test": "bun test"
   },
-  "type": "module",
   "dependencies": {
     "yaml": "^2.4.5"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.4",
+    "@types/jest": "^29.5.12",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

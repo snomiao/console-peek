@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/snomiao/peek-log/compare/v0.0.3...v0.0.4) (2024-06-15)
+
+
+### Features
+
+* **peekYaml:** init ([bbb8486](https://github.com/snomiao/peek-log/commit/bbb848627a31524b694e9b1a942482b7422504ff))
+
 ### [0.0.3](https://github.com/snomiao/console-peek/compare/v0.0.2...v0.0.3) (2024-06-14)
 
 
