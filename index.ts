@@ -16,7 +16,7 @@ export function peekLog<T extends Promise<any> | any>(
 
 export function peekYaml<T extends Promise<any> | any>(
   val: T,
-  log = (val: any) => console.log(yaml.stringify(val))
+  log = (val: any) => console.log(yaml.stringify(val).trim())
 ): T {
   (async function () {
     if (val instanceof Promise) {
