@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/snomiao/peek-log/compare/v0.0.4...v0.0.5) (2024-06-21)
+
+
+### Bug Fixes
+
+* **main:** trim yaml ([85bba1b](https://github.com/snomiao/peek-log/commit/85bba1be7126e07b57d832fb144ec749306b7907))
+
 ### [0.0.4](https://github.com/snomiao/peek-log/compare/v0.0.3...v0.0.4) (2024-06-15)
 
 
