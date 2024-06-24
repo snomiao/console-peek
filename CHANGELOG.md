@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/snomiao/peek-log/compare/v0.0.8...v0.0.9) (2024-06-24)
+
+
+### Bug Fixes
+
+* **main:** remove lockb ([52ff465](https://github.com/snomiao/peek-log/commit/52ff46521702dd13d1962c5538ecfe576d78862e))
+
 ### [0.0.8](https://github.com/snomiao/peek-log/compare/v0.0.7...v0.0.8) (2024-06-21)
 
 
