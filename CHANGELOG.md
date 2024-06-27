@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/snomiao/peek-log/compare/v0.0.10...v0.0.11) (2024-06-27)
+
+
+### Bug Fixes
+
+* **main:** logwith ([b640ee2](https://github.com/snomiao/peek-log/commit/b640ee27ac240a3926e8dcf905f11b2f29d67b1f))
+* **main:** use arrow fn ([c51c870](https://github.com/snomiao/peek-log/commit/c51c8700ce232df4daa62929b16597cef65d1fec))
+
 ### [0.0.10](https://github.com/snomiao/peek-log/compare/v0.0.9...v0.0.10) (2024-06-27)
 
 ### [0.0.9](https://github.com/snomiao/peek-log/compare/v0.0.8...v0.0.9) (2024-06-24)
