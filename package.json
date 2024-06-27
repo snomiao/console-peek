@@ -1,6 +1,6 @@
 {
   "name": "peek-log",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Handy peeker from deep nested functional pipe",
   "author": "snomiao <snomiao@gmail.com>",
   "type": "module",
