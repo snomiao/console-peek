@@ -1,5 +1,8 @@
-import { peekLog } from ".";
+import { peekLog } from "./peekLog";
 
+beforeEach(() => {
+  jest.clearAllMocks();
+});
 it("peeks", () => {
   console.log = jest.fn(console.info);
   const obj = peekLog({
@@ -19,6 +22,7 @@ it("peeks with json stringified", () => {
       rand: Math.random(),
       value: "abc",
     },
+    "",
     (e) => console.log(JSON.stringify(e))
   );
   expect(obj).toHaveProperty("value");
