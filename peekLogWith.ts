@@ -1,5 +1,5 @@
 export const peekLogWith =
-  (topic?: any, log = (...args: any[]) => console.log(args)) =>
+  (topic?: any, log = (...args: any[]) => console.log(...args)) =>
   <T extends Promise<any> | any>(val: T): T => {
     (async function () {
       if (topic !== undefined) {

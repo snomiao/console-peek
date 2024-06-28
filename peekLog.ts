@@ -1,7 +1,7 @@
 export function peekLog<T extends Promise<any> | any>(
   val: T,
   topic?: any,
-  log = (...args: any[]) => console.log(args)
+  log = (...args: any[]) => console.log(...args)
 ): T {
   (async function () {
     if (val instanceof Promise) {
